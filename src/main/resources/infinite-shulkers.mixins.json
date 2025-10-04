@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.leonardocg.infiniteshulkers.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}

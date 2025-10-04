@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "infinite-shulkers",
+	"version": "${version}",
+	"name": "Infinte Shulkers",
+	"description": "Allows you to put shulker boxes inside other shulker boxes.",
+	"authors": [
+		"LeonardoCG"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/infinite-shulkers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.leonardocg.infiniteshulkers.InfiniteShulkers"
+		],
+		"fabric-datagen": [
+			"net.leonardocg.infiniteshulkers.InfiniteShulkersDataGenerator"
+		]
+	},
+	"mixins": [
+		"infinite-shulkers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.7",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
